@@ -1,4 +1,4 @@
-# java-web-sbt-blade-postgres-hibernate-simple
+# java-web-sbt-blade-sqlserver-hibernate-simple
 
 ## Description
 Creates a small database table
@@ -11,11 +11,11 @@ hql.
   - hibernate
   - hql
   - blade
-  - postgres driver
+  - mssql driver
 
 ## Docker stack
 - hseeberger/scala-sbt:11.0.2-oraclelinux7_1.3.5_2.12.10
-- postgres:alpine
+- mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
 ## To run
 `sudo ./install.sh -u`
